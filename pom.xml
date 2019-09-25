@@ -99,7 +99,7 @@
                     <imageTags>
                         <imageTag>${project.version}</imageTag>
                     </imageTags>
-                    <dockerHost>http://47.96.102.107:7425</dockerHost>
+                    <dockerHost>http://192.168.1.86:2375</dockerHost>
                     <resources>
                         <resource>
                             <targetPath>/</targetPath>
