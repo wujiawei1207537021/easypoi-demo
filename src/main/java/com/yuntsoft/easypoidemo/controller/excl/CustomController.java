@@ -12,7 +12,6 @@ import org.springframework.web.multipart.MultipartFile;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.InputStream;
-import java.net.URL;
 import java.util.List;
 
 @RestController
@@ -26,7 +25,7 @@ public class CustomController {
      */
     @GetMapping("/down")
     public void down(HttpServletResponse httpServletResponse) throws IOException {
-        InputStream is =  Thread.currentThread().getContextClassLoader().getResourceAsStream("school.xls");
+        InputStream is = Thread.currentThread().getContextClassLoader().getResourceAsStream("school.xls");
         Workbook workbook = WorkbookFactory.create(is);
         ExcelUtiles.downLoadExcel1("学校.xls", httpServletResponse, workbook);
     }

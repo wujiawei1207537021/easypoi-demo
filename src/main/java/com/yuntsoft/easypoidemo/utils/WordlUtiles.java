@@ -1,7 +1,7 @@
 package com.yuntsoft.easypoidemo.utils;
 
-
 import org.apache.poi.xwpf.usermodel.XWPFDocument;
+
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.net.URLEncoder;
@@ -10,6 +10,7 @@ public class WordlUtiles {
 
     /**
      * word 导出
+     *
      * @param fileName
      * @param response
      * @param document
@@ -24,7 +25,6 @@ public class WordlUtiles {
             //throw new NormalException(e.getMessage());
         }
     }
-
 
 
 }

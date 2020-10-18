@@ -1,7 +1,6 @@
 package com.yuntsoft.easypoidemo.utils;
 
 import cn.afterturn.easypoi.excel.annotation.Excel;
-import com.yuntsoft.easypoidemo.entity.Person;
 import org.apache.poi.ss.usermodel.*;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -9,8 +8,6 @@ import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.lang.reflect.Field;
-import java.lang.reflect.InvocationHandler;
-import java.lang.reflect.Proxy;
 import java.util.*;
 
 @Deprecated
